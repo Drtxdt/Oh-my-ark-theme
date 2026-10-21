@@ -1,0 +1,74 @@
+{
+  "name": "oh-my-ark-theme",
+  "publisher": "arktheme",
+  "displayName": "Oh My Ark Theme",
+  "description": "Six original editorial themes inspired by Endfield, geometric ritual and Siesta travel prints.",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "main": "./dist/extension.cjs",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "arktheme.open",
+        "title": "Ark Theme: Open Control Panel"
+      },
+      {
+        "command": "arktheme.sync",
+        "title": "Ark Theme: Synchronize Both Apps"
+      }
+    ],
+    "themes": [
+      {
+        "id": "Ark Endfield Light",
+        "label": "Ark Endfield Light",
+        "uiTheme": "vs",
+        "path": "./themes/endfield-light.json"
+      },
+      {
+        "id": "Ark Endfield Dark",
+        "label": "Ark Endfield Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/endfield-dark.json"
+      },
+      {
+        "id": "Ark Masses Light",
+        "label": "Ark Masses Light",
+        "uiTheme": "vs",
+        "path": "./themes/masses-light.json"
+      },
+      {
+        "id": "Ark Masses Dark",
+        "label": "Ark Masses Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/masses-dark.json"
+      },
+      {
+        "id": "Ark Siesta Light",
+        "label": "Ark Siesta Light",
+        "uiTheme": "vs",
+        "path": "./themes/siesta-light.json"
+      },
+      {
+        "id": "Ark Siesta Dark",
+        "label": "Ark Siesta Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/siesta-dark.json"
+      }
+    ]
+  },
+  "files": [
+    "dist/**",
+    "themes/**",
+    "assets/**",
+    "README.md",
+    "LICENSE"
+  ]
+}

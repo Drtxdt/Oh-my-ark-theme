@@ -1,0 +1,1 @@
+{"name":"@arktheme/cli","version":"0.1.0","type":"module","bin":{"arktheme":"../../dist/cli.mjs"}}

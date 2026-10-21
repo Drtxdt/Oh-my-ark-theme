@@ -1,0 +1,6 @@
+{
+  "repository": "https://github.com/Fei-Away/Codex-Dream-Skin",
+  "commit": "6fc42df48a6a5365011f55cc349e20c038e56d1d",
+  "license": "MIT",
+  "changes": "Unmodified platform scripts and text runtime assets only. No upstream image assets bundled. Ark bridge calls verified process helpers; upstream renderer is not used."
+}

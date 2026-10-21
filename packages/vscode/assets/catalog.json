@@ -1,0 +1,236 @@
+[
+  {
+    "id": "endfield",
+    "mode": "light",
+    "label": "Ark Endfield Light",
+    "title": "终末地",
+    "colors": {
+      "bg": "#F2F1E8",
+      "panel": "#E6E5DB",
+      "fg": "#242923",
+      "muted": "#5D6258",
+      "accent": "#596500",
+      "border": "#797E70",
+      "red": "#AE302D",
+      "green": "#386223",
+      "blue": "#286384",
+      "purple": "#78538B",
+      "yellow": "#796000"
+    },
+    "background": "endfield-light-cover.webp",
+    "composition": {
+      "anchor": [
+        0.8,
+        0.5
+      ],
+      "safeArea": [
+        0.08,
+        0.45,
+        0.58,
+        0.76
+      ],
+      "style": "industrial-outline",
+      "font": "Barlow Condensed"
+    },
+    "source": {
+      "kind": "original-svg",
+      "generator": "scripts/build.ts",
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "endfield",
+    "mode": "dark",
+    "label": "Ark Endfield Dark",
+    "title": "终末地",
+    "colors": {
+      "bg": "#171A19",
+      "panel": "#222725",
+      "fg": "#E8EBDD",
+      "muted": "#A5B0A4",
+      "accent": "#D4E65B",
+      "border": "#768274",
+      "red": "#FF9391",
+      "green": "#AAD790",
+      "blue": "#91C4E5",
+      "purple": "#CCADE1",
+      "yellow": "#E9CE7E"
+    },
+    "background": "endfield-dark-cover.webp",
+    "composition": {
+      "anchor": [
+        0.8,
+        0.5
+      ],
+      "safeArea": [
+        0.08,
+        0.45,
+        0.58,
+        0.76
+      ],
+      "style": "industrial-outline",
+      "font": "Barlow Condensed"
+    },
+    "source": {
+      "kind": "original-svg",
+      "generator": "scripts/build.ts",
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "masses",
+    "mode": "light",
+    "label": "Ark Masses Light",
+    "title": "众生行记",
+    "colors": {
+      "bg": "#F1F5F6",
+      "panel": "#E3EAF0",
+      "fg": "#172838",
+      "muted": "#4C6475",
+      "accent": "#2453B4",
+      "border": "#708494",
+      "red": "#AF344B",
+      "green": "#276E59",
+      "blue": "#2453B4",
+      "purple": "#7251A0",
+      "yellow": "#796000"
+    },
+    "background": "masses-light-cover.webp",
+    "composition": {
+      "anchor": [
+        0.79,
+        0.46
+      ],
+      "safeArea": [
+        0.08,
+        0.45,
+        0.55,
+        0.76
+      ],
+      "style": "geometric-hand-study",
+      "font": "Bodoni Moda"
+    },
+    "source": {
+      "kind": "original-svg",
+      "generator": "scripts/build.ts",
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "masses",
+    "mode": "dark",
+    "label": "Ark Masses Dark",
+    "title": "众生行记",
+    "colors": {
+      "bg": "#111B26",
+      "panel": "#1B2A38",
+      "fg": "#E3F1F7",
+      "muted": "#9FB8C9",
+      "accent": "#9BD8FA",
+      "border": "#708EA4",
+      "red": "#FF9BAE",
+      "green": "#91D9BE",
+      "blue": "#9BD8FA",
+      "purple": "#C6B6FF",
+      "yellow": "#E5D28A"
+    },
+    "background": "masses-dark-cover.webp",
+    "composition": {
+      "anchor": [
+        0.79,
+        0.46
+      ],
+      "safeArea": [
+        0.08,
+        0.45,
+        0.55,
+        0.76
+      ],
+      "style": "geometric-hand-study",
+      "font": "Bodoni Moda"
+    },
+    "source": {
+      "kind": "original-svg",
+      "generator": "scripts/build.ts",
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "siesta",
+    "mode": "light",
+    "label": "Ark Siesta Light",
+    "title": "火山旅梦",
+    "colors": {
+      "bg": "#FFF1DC",
+      "panel": "#F3DFC6",
+      "fg": "#492C31",
+      "muted": "#795452",
+      "accent": "#A23E32",
+      "border": "#A06E61",
+      "red": "#A23E32",
+      "green": "#306657",
+      "blue": "#32667C",
+      "purple": "#865075",
+      "yellow": "#806000"
+    },
+    "background": "siesta-light-cover.webp",
+    "composition": {
+      "anchor": [
+        0.82,
+        0.58
+      ],
+      "safeArea": [
+        0.08,
+        0.45,
+        0.52,
+        0.76
+      ],
+      "style": "coastal-print",
+      "font": "Fraunces"
+    },
+    "source": {
+      "kind": "original-svg",
+      "generator": "scripts/build.ts",
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "siesta",
+    "mode": "dark",
+    "label": "Ark Siesta Dark",
+    "title": "火山旅梦",
+    "colors": {
+      "bg": "#261E2A",
+      "panel": "#352A3A",
+      "fg": "#F9E5D2",
+      "muted": "#C8ABBC",
+      "accent": "#FFA89B",
+      "border": "#A38398",
+      "red": "#FFA89B",
+      "green": "#A5D9C5",
+      "blue": "#A7CFDF",
+      "purple": "#DCB3DE",
+      "yellow": "#F3CE92"
+    },
+    "background": "siesta-dark-cover.webp",
+    "composition": {
+      "anchor": [
+        0.82,
+        0.58
+      ],
+      "safeArea": [
+        0.08,
+        0.45,
+        0.52,
+        0.76
+      ],
+      "style": "coastal-print",
+      "font": "Fraunces"
+    },
+    "source": {
+      "kind": "original-svg",
+      "generator": "scripts/build.ts",
+      "license": "MIT"
+    }
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "name": "oh-my-ark-theme",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "tsx scripts/build.ts && tsx scripts/bundle.ts",
+    "test": "tsx --test tests/*.test.ts",
+    "check": "tsc --noEmit",
+    "package": "npm run build && tsx scripts/package.ts",
+    "preview": "node scripts/serve.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/vscode": "^1.100.0",
+    "@vscode/vsce": "^4.0.0",
+    "esbuild": "^0.25.0",
+    "fontkit": "^2.0.4",
+    "prettier": "^3.9.10",
+    "sharp": "^0.35.5",
+    "tsx": "^4.20.0",
+    "typescript": "^5.8.0"
+  }
+}

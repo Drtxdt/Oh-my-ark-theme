@@ -1,0 +1,9 @@
+node_modules
+dist
+vendor
+assets
+package-lock.json
+packages/vscode/themes
+packages/vscode/assets
+packages/vscode/dist
+.test-state

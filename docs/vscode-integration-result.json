@@ -1,0 +1,17 @@
+{
+  "version": "1.143.0",
+  "platform": "win32",
+  "switches": 30,
+  "themes": [
+    "Ark Endfield Light",
+    "Ark Endfield Dark",
+    "Ark Masses Light",
+    "Ark Masses Dark",
+    "Ark Siesta Light",
+    "Ark Siesta Dark"
+  ],
+  "panelOpened": true,
+  "restored": true,
+  "systemMode": true,
+  "timestamp": "2026-10-21T12:24:12.225Z"
+}
